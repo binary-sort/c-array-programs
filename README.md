@@ -5,7 +5,7 @@ Programming - Data Structures - Arrays
 ### What is this repository for? ###
 
 * This repository is for listing operations and solving problems related to array data structure
-* 0.1.0
+* Version - 0.0.0
 
 ### Contribution guidelines ###
 
