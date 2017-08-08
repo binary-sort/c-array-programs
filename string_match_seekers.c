@@ -24,33 +24,21 @@ int main()
   for(i=0; i < sizeof(arr);i++)
   {
     if(arr[i]=='s')
-    {
-      count_s=count_s+1;
-
-    }
+        count_s=count_s+1;
     else
       if(arr[i]=='e')
-      {
         count_e=count_e+1;
-
-      }
-      else
-        if(arr[i]=='k')
-        {
-          count_k=count_k+1;
-
-        }
-
-        else
-          if(arr[i]=='r')
-          {
-            count_r=count_r+1;
-
-          }
-
-        else
-           continue;
-         }
+    else
+      if(arr[i]=='k')
+        count_k=count_k+1;
+    else
+      if(arr[i]=='r')
+        count_r=count_r+1;
+    else
+      continue;
+  }
+        //count of each character of "seekers"
+        //stored in an array K 
          k[0]=count_s/2;
          k[1]=count_e/3;
          k[2]=count_k;
@@ -60,10 +48,9 @@ int main()
 
       for ( i = 1; i < 4; i++)
        {
+
         if(min>k[i])
-        {
           min=k[i];
-        }
 
       }
       printf("%d", min );
