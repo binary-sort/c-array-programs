@@ -23,6 +23,16 @@ void right_rotate(int size,int rotation,int array[]){
 	}
 }
 
+void right_rotate_another(int size,int rotation,int array[]){
+	int temp = array[0],count,index = 0,temp1;
+	for(count=0;count<size;count++){
+		temp1 = temp;
+		temp = array[(index+rotation+size)%size];
+		array[(index+rotation+size)%size] = temp1;
+		index = (index+rotation+size)%size;
+	}
+}
+
 void main(){
 	int size, rotation, index, direction; // n defines size of array
 	printf("Enter length of array: ");
