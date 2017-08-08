@@ -16,6 +16,7 @@ int main()
     }
 }
 printf("max GCD: %d", x);
+printf("\n");
 return 0;
 }
 
