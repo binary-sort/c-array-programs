@@ -3,7 +3,7 @@
 int gcd(int n1, int n2);
 int main()
 {
-  int arr[size]={2,4,6,9,3,16,12,45,8,76},x;
+  int arr[size]={2,4,6,9,3,16,12,45,8,76},x,p1=0,p2=0;
   x=gcd(arr[0], arr[1]);
   for(int i = 0; i < 10; i++) {
     for(int j = i + 2; j < 10; j++) {
@@ -11,11 +11,13 @@ int main()
         if(gcd(arr[i],arr[j]) > x)
         {
           x=gcd(arr[i],arr[j]);
+          p1=arr[i];
+          p2=arr[j];
         }
 
     }
 }
-printf("max GCD: %d", x);
+printf("pair with max GCD:( %d , %d )", p1, p2);
 printf("\n");
 return 0;
 }
