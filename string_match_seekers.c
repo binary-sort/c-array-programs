@@ -26,31 +26,35 @@ int main()
     if(arr[i]=='s')
     {
       count_s=count_s+1;
-      k[0]=count_s;
+
     }
     else
       if(arr[i]=='e')
       {
         count_e=count_e+1;
-        k[1]=count_e;
+
       }
       else
         if(arr[i]=='k')
         {
           count_k=count_k+1;
-          k[2]=count_k;
+
         }
 
         else
           if(arr[i]=='r')
           {
             count_r=count_r+1;
-            k[3]=count_r;
+
           }
 
         else
            continue;
          }
+         k[0]=count_s/2;
+         k[1]=count_e/3;
+         k[2]=count_k;
+         k[3]=count_r;
 
       min=k[0]; // min initialized to first element of k
 
