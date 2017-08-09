@@ -2,7 +2,8 @@
 C program to find pair with maximum GCD in an integer array
 */
 #include <stdio.h>
-#include "prob_2.h"
+
+
 
 #define size 10  //size of array defined
 
@@ -30,6 +31,13 @@ int main()
 printf("pair with max GCD:( %d , %d )", p1, p2);
 printf("\n");
 return 0;
+}
+int gcd(int n1, int n2)
+{
+    if (n2 != 0)
+       return gcd(n2, n1%n2);
+    else
+       return n1;
 }
 
 
