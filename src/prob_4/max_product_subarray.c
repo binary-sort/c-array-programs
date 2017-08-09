@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "prob_4.h"
-#include "utils/utils.h"
+#include "../utils/utils.h"
 int max_product(int arr[], int n);
 int max (int x, int y);
 int min (int x, int y);

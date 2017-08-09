@@ -1,4 +1,4 @@
-int max (int x, int y);
+int min (int x, int y);
 int max (int x, int y) ;
 int max_product(int arr[], int n)
 {
@@ -10,12 +10,12 @@ int max_product(int arr[], int n)
     if(arr[i]<0)
     { int temp=maxi;
       maxi=max(arr[i], mini*arr[i]);
-      mini=max(arr[i], temp*arr[i]);
+      mini=min(arr[i], temp*arr[i]);
     }
     else
     {
       maxi=max(arr[i], maxi*arr[i]);
-      mini=max(arr[i], mini*arr[i]);
+      mini=min(arr[i], mini*arr[i]);
     }
     r=max(maxi,r);
   }
