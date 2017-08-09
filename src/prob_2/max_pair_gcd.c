@@ -2,7 +2,7 @@
 C program to find pair with maximum GCD in an integer array
 */
 #include <stdio.h>
-#include "prob_1.h"
+#include "prob_2.h"
 
 #define size 10  //size of array defined
 
