@@ -7,7 +7,7 @@
 
 void main(){
   int n = 10;
-  int a[10] = {75,41,52,1,2,3,4,5,52,100};
+  int a[10] = {75,41,52,1,2,3,4,5,-4,-2};
   int r = 5;
   // left_rotate(n,r,a);
   // print_array(a,n);
@@ -16,5 +16,7 @@ void main(){
   // printf("minimum number to make array even sum: %d\n",return_min_num(a,n));
   // printf("%d\n", check_elements_in_range(a,n,0,11));
   // printf("%d\n", find_index(a,n,4));
+  printf("%d\n", given_sum_subset(a,n,-6));
+  printf("%d\n", given_sum_subset(a,n,9));
   printf("%d\n", given_sum_subset(a,n,18));
 }
