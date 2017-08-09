@@ -7,7 +7,7 @@ void print_arr(int *arr, int n);
 
 int main()
 {
-    int  arr[] = {4, 3, 7, 8, 6, 2};
+    int  arr[] = {3,4,2,87,5,32,45,6,5};
     int n = sizeof(arr)/sizeof(arr[0]);
     zig_Zag(arr, n);
     print_arr(arr,n);
