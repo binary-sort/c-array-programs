@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "utils/utils.h"
-#include "prob_1/prob_1.h"
-#include "prob_2/prob_2.h"
+#include "rotation/rotation.h"
+#include "return_min_num/return_min_num.h"
 #include "check_range/check_range.h"
 
 void main(){
