@@ -1,11 +1,17 @@
 This file includes objective of each problem.
 
 
-problem 1: The main objective of this file is to find the index of 
-           maximum and minimum element of an unsorted integer array.
+problem 1: To find the index of maximum and minimum element of an unsorted integer array.
 
-problem 2 : The objective of this problem is to find the pair which has the maximum
-            GCD in an integer array.
+problem 2 : To find the pair which has the maximum GCD in an integer array.
 
-problem 3 : The objective of this problem to find the number of times a string can be formed
+problem 3 : To find the number of times a string can be formed
             from the characters of an random string.
+
+problem 4 : To find the subarray maximum product.
+
+problem 5 : To segregate even odd numbers of an array
+
+problem 6 : To convert array into zig zag manner.
+
+
