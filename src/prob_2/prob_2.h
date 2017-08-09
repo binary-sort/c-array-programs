@@ -1,1 +1,1 @@
-void merge_sort(int,int,int);
+int return_min_num(int *,int);

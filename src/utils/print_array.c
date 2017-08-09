@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "utils.h"
 
 void print_array(int arr[], int n) {
 	int i;
