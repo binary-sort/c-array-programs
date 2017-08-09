@@ -39,8 +39,8 @@ void merge(int array[], int l, int m, int r)
 void merge_sort(int array[], int l, int r){
     if (l < r){
         int m = l+(r-l)/2;
-        mergeSort(array, l, m);
-        mergeSort(array, m+1, r);
+        merge_sort(array, l, m);
+        merge_sort(array, m+1, r);
         merge(array, l, m, r);
     }
 }
