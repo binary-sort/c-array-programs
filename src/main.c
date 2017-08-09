@@ -13,5 +13,6 @@ void main(){
   // right_rotate(n,r,a);
   // print_array(a,n);
   // printf("minimum number to make array even sum: %d\n",return_min_num(a,n));
-  printf("%d\n", check_elements_in_range(a,n,0,11));
+  // printf("%d\n", check_elements_in_range(a,n,0,11));
+  printf("%d\n", find_index(a,n,4));
 }
