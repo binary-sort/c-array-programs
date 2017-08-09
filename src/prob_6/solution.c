@@ -8,15 +8,13 @@ void zig_Zag(int arr[], int n)
     {
         if (p)  // "<" relation expected
         {
-            /* If we have a situation like A > B > C,
-               we get A > B < C by swapping B and C */
+
             if (arr[i] > arr[i+1])
                 swap(&arr[i], &arr[i+1]);
         }
         else //">" relation expected
         {
-            /* If we have a situation like A < B < C,
-               we get A < C > B by swapping B and C */
+          
             if (arr[i] < arr[i+1])
                 swap(&arr[i], &arr[i+1]);
         }
