@@ -1,6 +1,6 @@
 int given_sum_subset(int array[],int size,int sum){
   int temp = sum;
-  if(size==0 && temp==0){
+  if(temp==0){
     return 1;
   }
   if(size==0){
