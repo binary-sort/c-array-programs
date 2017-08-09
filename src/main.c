@@ -5,6 +5,7 @@
 #include "check_range/check_range.h"
 #include "given_sum_subset/given_sum_subset.h"
 #include "sorting/sorting.h"
+#include "find_index/find_index.h"
 
 void main(){
   int n = 10;
