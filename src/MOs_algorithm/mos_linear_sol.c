@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int mos_linear_sol(int array[],int a_size,int query[][2],int q_size){
+void mos_linear_sol(int array[],int a_size,int query[][2],int q_size){
   int q_index, a_index, l, r, sum;
   for(q_index=0;q_index<q_size;q_index++){
     l = query[q_index][0];
