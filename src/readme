@@ -16,4 +16,7 @@ problem 5 : To segregate even odd numbers of an array
 
 problem 6 : To convert array into zig zag manner.
 
+program 7 : To find the largest subarray having equal number of
+             zeroes and ones.
 
+program 8 : To find the first repeated element of an array
