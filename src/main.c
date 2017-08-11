@@ -23,9 +23,10 @@ void main(){
   // printf("%d\n", given_sum_subset(a,n,100));
   // merge_sort(a,0,n-1);
   // print_array(a,n);
-  int q[5][2] = {{1,3},{0,6},{8,9},{6,9},{1,4}};
-  mos_algo(a,n,q,5);
-  sol_3(a,n,q,5);
+  // int q[5][2] = {{1,3},{0,6},{8,9},{6,9},{1,4}};
+  // mos_algo(a,n,q,5);
+  // sol_3(a,n,q,5);
+  palindrome_naive("112113",6);
   // printf("%lu\n", sizeof(int));
   // printf("%d\n", max_sum_path(a,b,10,10));
 }
