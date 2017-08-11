@@ -26,7 +26,8 @@ void main(){
   // int q[5][2] = {{1,3},{0,6},{8,9},{6,9},{1,4}};
   // mos_algo(a,n,q,5);
   // sol_3(a,n,q,5);
-  palindrome_naive("112113",6);
+  // palindrome_naive("112113",6);
+  rabin_karp("aabaacaabaa");
   // printf("%lu\n", sizeof(int));
   // printf("%d\n", max_sum_path(a,b,10,10));
 }
