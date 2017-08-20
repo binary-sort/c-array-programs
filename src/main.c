@@ -27,7 +27,8 @@ void main(){
   // mos_algo(a,n,q,5);
   // sol_3(a,n,q,5);
   // palindrome_naive("112113",6);
-  rabin_karp("aabaacaabaa");
+  // rabin_karp("aabaacaabaa");
   // printf("%lu\n", sizeof(int));
   // printf("%d\n", max_sum_path(a,b,10,10));
+  uniquetriplets(a,n,12);
 }
