@@ -3,11 +3,11 @@
 
 void merge(int array[], int l, int m, int r);
 void merge_sort(int array[], int l, int r);
-void findMaxGuests(int arrival[], int exit[], int n)
+void findMaxGuests(int *arrival, int *exit, int n)
 {
 
-   merge_sort(arrival,0,n);
-   merge_sort(exit, 0,n);
+   merge_sort(arrival,0,n-1);
+   merge_sort(exit, 0,n-1);
    int guestsin = 1, max_guests = 1, time = arrival[0];
    int i = 1, j = 0;
    while (i < n && j < n)
