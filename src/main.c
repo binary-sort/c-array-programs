@@ -9,8 +9,8 @@
 
 void main(){
   int n = 10;
-  int a[10] = {7,8,9,10,3,4,5,6,1,2};
-  int b[10] = {1,8,10,23,3,1,1,1,1,100};
+  int a[10] = {7,8,9,10,3,3,3,6,2,2};
+  int b[10] = {1,8,10,2,3,1,1,1,1,9};
   int r = 5;
   // left_rotate(n,r,a);
   // print_array(a,n);
@@ -30,5 +30,6 @@ void main(){
   // rabin_karp("aabaacaabaa");
   // printf("%lu\n", sizeof(int));
   // printf("%d\n", max_sum_path(a,b,10,10));
-  uniquetriplets(a,n,12);
+  // uniquetriplets(a,n,12);
+  printf("%d\n", naive_max_frequency(a,n));
 }
