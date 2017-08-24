@@ -20,3 +20,15 @@ program 7 : To find the largest subarray having equal number of
              zeroes and ones.
 
 program 8 : To find the first repeated element of an array
+
+prob 9 :    Given two sorted arrays, the task is to merge them in a sorted manner.
+
+prob 10:    Given an array of n integers. Find out number of pairs in array whose XOR is odd.
+
+prob 11:   Given a array such that all its terms is either 0 or 1.You need to tell the number represented by a subarray a[l..r] is odd or even.
+
+prob 12 : maximum interval overlap (party solution)
+
+prob 13 : to delete a element from array
+
+prob 14 : An Array of integers is given, both +ve and -ve. You need to find the two elements such that their sum is closest to zero.
